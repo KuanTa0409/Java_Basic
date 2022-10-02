@@ -1,0 +1,21 @@
+public class Hello7{
+	public static void main(String[] args) {
+		//浮點數
+		double x = 3.14; //double=64bits
+		System.out.println(x);
+
+		float y = 3.14f; //float=32bits
+		System.out.println(y);
+
+		float z = (float)3.14; //強制轉型
+		System.out.println(z);
+
+		/*
+		float y = 3.14;
+		Hello7.java:7: error: incompatible不兼容types: possible lossy conversion from double to float
+                float y = 3.14;
+                          ^
+        1 error
+		*/
+	}
+}

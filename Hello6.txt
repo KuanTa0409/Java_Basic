@@ -1,0 +1,20 @@
+public class Hello6{
+	 public static void main(String[] args) {
+	 	byte x = 23; //byte為8bits
+	 	System.out.println(x);
+	 	byte y = 0b00010111;//0b...代表二進制/0x...十六進位/0...八進制
+	 	System.out.println(y); 
+	 	System.out.println(1_000_000); //_方便看幾位數，編譯會把_拿掉
+	 	System.out.println(2_0368_5477_5808L);
+	 	System.out.println(017); //8進位=>15
+	 	System.out.println(0xab); //16進位=>171
+	 	/*
+	 	System.out.println(2_0368_5477_5808); //預設為int
+		=> Hello6.java:8: error: integer number too large
+                System.out.println(2_0368_5477_5808);
+                                   ^
+           1 error
+	 	*/
+	 }
+}
+//BigDecimal/BigInteger Java內有的變數型別(依照實際硬碟設備大小)

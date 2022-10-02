@@ -1,0 +1,20 @@
+public class Hello4{
+
+	public static void main(String[] args) {
+		//數學運算子:+ - * /
+		var x = 10; //宣告變數x
+		System.out.println(x);
+
+		var r = 15;//宣告半徑r=15
+		var pi=3.1415926;
+		var area = r * r * pi;//圓面積
+		System.out.println(r);
+		System.out.println(area);
+
+		//球體積
+		var volume = (4/3.0)*pi*(r*r*r);
+		System.out.println(volume);
+	}
+}
+//註解只會留在.java檔   .class檔裡不會有註解
+        //javadoc 產出API文件指令(文件註解/**.....*/)

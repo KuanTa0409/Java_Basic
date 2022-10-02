@@ -1,0 +1,26 @@
+/***************************************
+ * 這是我第一個 Java 程式
+ * 程式名稱: Hello5
+ * 開發人員: AllenLin
+ * 撰寫日期: 2022-09-30
+ * 版本編號: 1.0
+***************************************/
+public class Hello5{
+	/**
+		這是主方法，可以印出 Hello 的資料...
+	*/
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	
+	}
+}
+/*
+	指令: javadoc -d ./docs -encoding utf-8 Hello5.java
+    -d:目的地 .(當下)/docs:資料夾名稱(可更改名字)   -encoding(編碼) utf-8(編碼名稱)
+*/
+
+/*
+	Java11之後 靜態 宣告變數型別(自動版)     
+    var x=10;(var為int，x就只能是int 一次識別終生是); 
+    var y=3.14;(var為double，y就只能是int);
+*/
